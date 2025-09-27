@@ -7,6 +7,8 @@ import { router } from './router/router';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <dib className='front-urbanist max-w-7xl mx-auto'>
+      <RouterProvider router={router} />
+    </dib>
   </StrictMode>,
 )
